@@ -14,15 +14,15 @@ assignees: ''
 
 ### Passo a Passo para reproduzir:
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Vá para '...'
+2. Clique em '....'
+3. Desça até '....'
+4. Veja o erro
 
 ## Comportamento Esperado:
 [Tente ser claro e conciso sobre o comportamento esperado]::
 
-##Screenshots
+## Screenshots
 [Caso faça sentido, adicione screenshots do problema.]::
 
 
