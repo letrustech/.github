@@ -2,7 +2,7 @@
 name: Feature request
 about: Sugerir uma ideia para o projeto
 title: "[FEATURE]"
-labels: ''
+labels: "\U0001F4DD enhancement"
 assignees: ''
 
 ---
