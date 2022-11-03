@@ -1,10 +1,10 @@
 ## Descrição:
-[Detalhar o que foi feito e porquê.]::
+
 Link do [Trello]('').
 
 
 ## Como: 
-[Informar o que foi criado/modificado/removido para atingir o objetivo.]::
+
 
 
 ## Testando:
@@ -19,7 +19,7 @@ Link do [Trello]('').
 
 
 ### Como as mudanças devem ser testadas pelo revisor?
-[Passo a passo de como foi testado.]::
+
 
 
 ## Screenshots:
