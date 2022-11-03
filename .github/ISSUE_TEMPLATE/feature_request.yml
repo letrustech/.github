@@ -1,9 +1,5 @@
 name: Feature Request
 description: Ask for a new Feature
-title: "[Feature]: "
-labels: ["feature"]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -51,7 +47,7 @@ body:
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      render: Shell
   - type: checkboxes
     id: terms
     attributes:
