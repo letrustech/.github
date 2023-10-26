@@ -1,6 +1,6 @@
 ## Descrição:
 [Detalhar o que foi feito e porquê.]::
-Link do [Trello]('').
+[**Link do Jira**]('').
 
 
 ## Como: 
