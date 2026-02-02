@@ -1,0 +1,101 @@
+name: Improvement
+description: Propor melhorias em funcionalidades existentes, otimizações ou aprimoramentos
+title: "[IMPROVEMENT]: "
+labels: ["✨ improvement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para propor melhorias em funcionalidades que já existem, otimizações de performance, aprimoramentos de UX, ou refinamentos técnicos.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto/Problema
+      description: O que está funcionando atualmente e por que precisa ser melhorado?
+      placeholder: "Atualmente, a funcionalidade X funciona assim... mas poderia ser melhor se..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo da Melhoria
+      description: O que esta melhoria vai aprimorar? Qual o benefício esperado?
+      placeholder: "Esta melhoria vai permitir/melhorar... resultando em..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta de Melhoria
+      description: Como você propõe melhorar a funcionalidade atual?
+      placeholder: |
+        A melhoria proposta consiste em:
+        1. Modificar... para...
+        2. Adicionar... que vai...
+        3. Otimizar... através de...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas Consideradas
+      description: Você considerou outras formas de fazer esta melhoria?
+      placeholder: "Também considerei... mas preferi a abordagem proposta porque..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto e Riscos
+      description: Qual o impacto desta melhoria? Existem riscos de regressão?
+      placeholder: |
+        Impacto positivo:
+        - Melhoria de performance em X%
+        - Redução de erros
+        - Melhor experiência do usuário
+        
+        Riscos potenciais:
+        - Possível impacto em...
+        - Necessidade de...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceite
+      description: Como validaremos que a melhoria foi implementada com sucesso?
+      placeholder: |
+        - [ ] A funcionalidade deve continuar...
+        - [ ] A performance deve melhorar em...
+        - [ ] Os testes existentes devem passar
+        - [ ] Não deve haver regressão em...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade
+      description: Qual a importância desta melhoria?
+      options:
+        - P0 - Crítico (impacta diretamente usuários ou performance)
+        - P1 - Alto (melhoria importante)
+        - P2 - Médio (melhoria desejável)
+        - P3 - Baixo (polimento, nice to have)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Informações Adicionais
+      description: Métricas atuais, benchmarks, referências ou qualquer outra informação relevante
+      placeholder: "Dados de performance atuais, exemplos de outras aplicações, etc."
+    validations:
+      required: false

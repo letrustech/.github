@@ -1,0 +1,97 @@
+name: Feature Request
+description: Propor uma nova funcionalidade ou melhoria significativa
+title: "[FEATURE]: "
+labels: ["📝 enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir uma nova funcionalidade! Por favor, preencha os campos abaixo para nos ajudar a entender sua proposta.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto/Problema
+      description: Qual problema ou necessidade esta feature resolve?
+      placeholder: "Atualmente, não é possível... / Os usuários precisam de..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      description: Qual é o objetivo desta funcionalidade? O que ela deve permitir?
+      placeholder: "Esta feature permitirá que os usuários..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta de Solução
+      description: Descreva como você imagina que esta funcionalidade deve funcionar
+      placeholder: |
+        A funcionalidade deve:
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas Consideradas
+      description: Você considerou outras abordagens? Quais foram descartadas e por quê?
+      placeholder: "Também considerei... mas descartei porque..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto e Riscos
+      description: Qual o impacto esperado? Existem riscos a considerar?
+      placeholder: |
+        Impacto positivo:
+        - ...
+        
+        Riscos potenciais:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceite
+      description: Como saberemos que esta feature está completa e funcionando corretamente?
+      placeholder: |
+        - [ ] A feature deve permitir...
+        - [ ] O usuário deve ser capaz de...
+        - [ ] O sistema deve validar...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade
+      description: Qual a importância desta funcionalidade?
+      options:
+        - P0 - Crítico (bloqueador para negócio)
+        - P1 - Alto (importante para o roadmap)
+        - P2 - Médio (desejável, mas não urgente)
+        - P3 - Baixo (nice to have)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Informações Adicionais
+      description: Mockups, referências, links ou qualquer outra informação relevante
+      placeholder: "Links para designs, exemplos de outras aplicações, etc."
+    validations:
+      required: false

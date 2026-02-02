@@ -1,0 +1,97 @@
+name: Task
+description: Criar uma tarefa técnica, manutenção ou trabalho operacional
+title: "[TASK]: "
+labels: ["🔧 task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para tarefas técnicas, manutenções, refatorações, atualizações de dependências, e outros trabalhos operacionais.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto/Problema
+      description: Por que esta tarefa é necessária? Qual problema ela resolve?
+      placeholder: "Esta tarefa é necessária para... / Precisamos fazer isso porque..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist de Tarefas
+      description: Liste as etapas necessárias para completar esta tarefa
+      placeholder: |
+        - [ ] Etapa 1: Analisar dependências atuais
+        - [ ] Etapa 2: Atualizar versões
+        - [ ] Etapa 3: Testar compatibilidade
+        - [ ] Etapa 4: Atualizar documentação
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependências
+      description: Esta tarefa depende de outras tarefas ou issues? Outras tarefas dependem desta?
+      placeholder: |
+        Dependências (precisa ser feito antes):
+        - #123
+        - Aprovação da equipe X
+        
+        Bloqueios (será desbloqueado após esta task):
+        - #456
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceite / Definição de Pronto
+      description: Como saberemos que esta tarefa está completa?
+      placeholder: |
+        - [ ] Código revisado e aprovado
+        - [ ] Testes passando
+        - [ ] Documentação atualizada
+        - [ ] Deploy realizado (se aplicável)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade
+      description: Qual a urgência desta tarefa?
+      options:
+        - P0 - Crítico (urgente, bloqueador)
+        - P1 - Alto (importante para o sprint atual)
+        - P2 - Médio (pode ser feito no próximo sprint)
+        - P3 - Baixo (backlog, sem urgência)
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical-notes
+    attributes:
+      label: Notas Técnicas
+      description: Detalhes técnicos, links para documentação, comandos úteis, etc.
+      placeholder: |
+        Comandos:
+        ```bash
+        npm update
+        ```
+        
+        Referências:
+        - [Doc relevante](https://...)
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Informações Adicionais
+      description: Qualquer outra informação relevante
+      placeholder: "Contexto adicional, histórico, etc."
+    validations:
+      required: false
