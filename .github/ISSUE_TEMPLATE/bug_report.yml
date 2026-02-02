@@ -1,0 +1,104 @@
+name: Bug Report
+description: Reportar um erro ou comportamento inesperado no sistema
+title: "[BUG]: "
+labels: ["🐞 bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um bug! Por favor, preencha os campos abaixo para nos ajudar a entender e resolver o problema.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto/Problema
+      description: Descreva claramente qual é o problema e em que contexto ele ocorre
+      placeholder: "Exemplo: Ao tentar fazer login no sistema, o botão não responde..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para Reproduzir
+      description: Liste os passos necessários para reproduzir o bug
+      placeholder: |
+        1. Vá para '...'
+        2. Clique em '...'
+        3. Observe que '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado Esperado
+      description: O que deveria acontecer?
+      placeholder: "O sistema deveria..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado Atual
+      description: O que realmente acontece?
+      placeholder: "Na realidade, o sistema..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Informações sobre o ambiente onde o bug ocorre
+      placeholder: |
+        - Sistema Operacional: [ex: Windows 11, macOS 13, Ubuntu 22.04]
+        - Navegador: [ex: Chrome 120, Firefox 121, Safari 17]
+        - Versão da aplicação: [ex: v1.2.3]
+        - Ambiente: [ex: Produção, Staging, Desenvolvimento]
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências/Logs
+      description: Screenshots, logs de erro, vídeos ou outras evidências
+      placeholder: "Cole logs, adicione screenshots ou links para vídeos que demonstram o problema"
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceite
+      description: Como saberemos que o bug foi corrigido?
+      placeholder: |
+        - [ ] O sistema deve...
+        - [ ] Não deve mais ocorrer...
+        - [ ] Deve validar...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade
+      description: Qual a urgência deste bug?
+      options:
+        - P0 - Crítico (sistema fora do ar ou perda de dados)
+        - P1 - Alto (funcionalidade importante quebrada)
+        - P2 - Médio (problema que afeta alguns usuários)
+        - P3 - Baixo (problema menor ou cosmético)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Informações Adicionais
+      description: Qualquer outra informação relevante sobre o bug
+      placeholder: "Links, contexto adicional, possíveis causas, etc."
+    validations:
+      required: false
