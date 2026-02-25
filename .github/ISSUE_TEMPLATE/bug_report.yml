@@ -30,20 +30,13 @@ body:
       required: true
 
   - type: textarea
-    id: expected
+    id: expected-actual
     attributes:
-      label: Resultado Esperado
-      description: O que deveria acontecer?
-      placeholder: "O sistema deveria..."
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Resultado Atual
-      description: O que realmente acontece?
-      placeholder: "Na realidade, o sistema..."
+      label: Resultado Esperado vs Atual
+      description: O que deveria acontecer e o que realmente acontece?
+      placeholder: |
+        **Esperado:** O sistema deveria...
+        **Atual:** Na realidade, o sistema...
     validations:
       required: true
 
@@ -52,34 +45,9 @@ body:
     attributes:
       label: Ambiente
       description: Informações sobre o ambiente onde o bug ocorre
-      placeholder: |
-        - Sistema Operacional: [ex: Windows 11, macOS 13, Ubuntu 22.04]
-        - Navegador: [ex: Chrome 120, Firefox 121, Safari 17]
-        - Versão da aplicação: [ex: v1.2.3]
-        - Ambiente: [ex: Produção, Staging, Desenvolvimento]
-    validations:
-      required: true
-
-  - type: textarea
-    id: evidence
-    attributes:
-      label: Evidências/Logs
-      description: Screenshots, logs de erro, vídeos ou outras evidências
-      placeholder: "Cole logs, adicione screenshots ou links para vídeos que demonstram o problema"
+      placeholder: "Ex: Chrome 120, Windows 11, Produção v1.2.3"
     validations:
       required: false
-
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Critérios de Aceite
-      description: Como saberemos que o bug foi corrigido?
-      placeholder: |
-        - [ ] O sistema deve...
-        - [ ] Não deve mais ocorrer...
-        - [ ] Deve validar...
-    validations:
-      required: true
 
   - type: dropdown
     id: priority
@@ -93,12 +61,3 @@ body:
         - P3 - Baixo (problema menor ou cosmético)
     validations:
       required: true
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Informações Adicionais
-      description: Qualquer outra informação relevante sobre o bug
-      placeholder: "Links, contexto adicional, possíveis causas, etc."
-    validations:
-      required: false
