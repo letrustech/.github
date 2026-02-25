@@ -40,32 +40,6 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternativas Consideradas
-      description: Você considerou outras formas de fazer esta melhoria?
-      placeholder: "Também considerei... mas preferi a abordagem proposta porque..."
-    validations:
-      required: false
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impacto e Riscos
-      description: Qual o impacto desta melhoria? Existem riscos de regressão?
-      placeholder: |
-        Impacto positivo:
-        - Melhoria de performance em X%
-        - Redução de erros
-        - Melhor experiência do usuário
-        
-        Riscos potenciais:
-        - Possível impacto em...
-        - Necessidade de...
-    validations:
-      required: true
-
-  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Critérios de Aceite
@@ -90,12 +64,3 @@ body:
         - P3 - Baixo (polimento, nice to have)
     validations:
       required: true
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Informações Adicionais
-      description: Métricas atuais, benchmarks, referências ou qualquer outra informação relevante
-      placeholder: "Dados de performance atuais, exemplos de outras aplicações, etc."
-    validations:
-      required: false

@@ -40,29 +40,6 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternativas Consideradas
-      description: Você considerou outras abordagens? Quais foram descartadas e por quê?
-      placeholder: "Também considerei... mas descartei porque..."
-    validations:
-      required: false
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impacto e Riscos
-      description: Qual o impacto esperado? Existem riscos a considerar?
-      placeholder: |
-        Impacto positivo:
-        - ...
-        
-        Riscos potenciais:
-        - ...
-    validations:
-      required: true
-
-  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Critérios de Aceite
@@ -86,12 +63,3 @@ body:
         - P3 - Baixo (nice to have)
     validations:
       required: true
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Informações Adicionais
-      description: Mockups, referências, links ou qualquer outra informação relevante
-      placeholder: "Links para designs, exemplos de outras aplicações, etc."
-    validations:
-      required: false
