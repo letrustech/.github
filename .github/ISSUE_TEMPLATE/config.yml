@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: 💬 Dúvidas e Discussões
-    url: https://github.com/orgs/letrustech/discussions
-    about: Para perguntas, dúvidas ou discussões gerais sobre os projetos
-  - name: 🔒 Reportar Vulnerabilidade de Segurança
-    url: https://github.com/letrustech/.github/security/policy
-    about: Para reportar vulnerabilidades de segurança de forma responsável (não abra issue pública)
