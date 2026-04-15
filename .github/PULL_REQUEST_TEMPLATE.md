@@ -1,5 +1,8 @@
 ## Descrição:
-#### Link da atividade: []('')
+[Use um dos formatos:  Closes #123 | Fixes #456 | https://jira.com/browse/PROJ-123]::
+#### Issues/Atividades Relacionadas: xx
+
+
 [Informar o que foi criado/modificado/removido para atingir o objetivo.]::
 
 
