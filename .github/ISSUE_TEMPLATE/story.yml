@@ -24,6 +24,8 @@ body:
       id: technical_notes
       label: "Notas técnicas"
       description: "Notas técnicas"
+    validations:
+      required: true
 
   - type: textarea
     attributes:
