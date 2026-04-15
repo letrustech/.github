@@ -10,9 +10,12 @@ body:
       value: |
         ## Story:
 
+
         ## Contexto:
 
+
         ## Critérios de aceitação:
+
     validations:
       required: true
 
@@ -27,4 +30,4 @@ body:
       id: unit_tests
       label: "Testes unitários"
       description: "Checklist de testes unitários a serem implementados"
-      value: "- [ ] \n"
+      value: "[O Desenvolvedor deve preencher quais os principais testes unitários a serem implementados.]::\n- [ ] \n"
