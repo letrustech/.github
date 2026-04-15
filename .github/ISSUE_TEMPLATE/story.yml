@@ -28,6 +28,6 @@ body:
   - type: textarea
     attributes:
       id: unit_tests
-      label: "Testes unitários"
-      description: "Checklist de testes unitários a serem implementados"
-      value: "[O Desenvolvedor deve preencher quais os principais testes unitários a serem implementados.]::\n- [ ] \n"
+      label: "Testes"
+      description: "Checklist de testes unitários/outros a serem implementados"
+      value: "[O Desenvolvedor deve preencher quais os principais testes a serem implementados.]::\n- [ ] \n"
