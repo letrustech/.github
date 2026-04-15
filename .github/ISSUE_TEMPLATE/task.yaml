@@ -1,0 +1,23 @@
+name: Task
+description: Tarefas técnicas, manutenções, refatorações ou trabalho operacional
+type: task
+body:
+  - type: textarea
+    attributes:
+      id: description
+      label: "Descrição"
+      description: "Descreva a tarefa técnica a ser realizada"
+      placeholder: "Ex: Atualizar dependências do projeto para versões mais recentes"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      id: definition_of_done
+      label: "Definição de Pronto"
+      description: "Critérios para considerar esta task concluída"
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
