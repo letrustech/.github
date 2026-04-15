@@ -12,7 +12,6 @@ body:
 
   - type: input
     attributes:
-      id: documentation_link
       label: "Link da Documentação"
       description: "Link para a documentação do projeto"
       placeholder: "https://..."

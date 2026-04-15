@@ -34,7 +34,6 @@ body:
 
   - type: dropdown
     attributes:
-      id: priority
       label: "Prioridade"
       description: "Qual a gravidade do problema?"
       options:
