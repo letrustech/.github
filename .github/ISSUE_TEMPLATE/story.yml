@@ -16,7 +16,6 @@ body:
       id: technical_notes
       label: "Notas técnicas"
       description: "Notas técnicas"
-      placeholder: ""
 
   - type: textarea
     attributes:
