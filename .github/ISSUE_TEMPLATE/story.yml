@@ -1,7 +1,6 @@
 name: Story
 description: Propor uma nova funcionalidade ou melhoria significativa
-title: ""
-labels: ["story"]
+type: story
 body:
   - type: markdown
     attributes:
