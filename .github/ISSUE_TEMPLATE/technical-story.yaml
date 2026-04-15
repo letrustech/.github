@@ -1,0 +1,43 @@
+name: Technical Story
+description: Trabalho técnico que tem valor mensurável
+type: story
+body:
+  - type: textarea
+    attributes:
+      id: description
+      label: "Descrição"
+      description: "Descreva o trabalho técnico, contexto e critérios de aceitação"
+      value: |
+        ## Problema/Necessidade Técnica:
+        [Descreva o problema técnico, debt, ou necessidade de melhoria]::
+
+
+        ## Solução Proposta:
+        [Como pretende resolver? Abordagem técnica resumida]::
+
+
+        ## Critérios de Aceitação:
+
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      id: technical_notes
+      label: "Notas Técnicas"
+      description: "Detalhes de implementação, arquitetura, dependências técnicas"
+      placeholder: |
+        - Ferramentas/tecnologias envolvidas
+        - Dependências de outros sistemas
+        - Riscos técnicos
+        - Alternativas consideradas
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      id: unit_tests
+      label: "Testes"
+      description: "Checklist de testes unitários/outros a serem implementados"
+      value: "[O Desenvolvedor deve preencher quais os principais testes a serem implementados.]::\n- [ ] \n"
