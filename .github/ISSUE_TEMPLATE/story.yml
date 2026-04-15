@@ -2,14 +2,19 @@ name: Story
 description: Propor uma nova funcionalidade ou melhoria significativa
 type: story
 body:
-  - type: markdown
+  - type: textarea
     attributes:
+      id: description
+      label: "Descrição"
+      description: "Descreva a story, contexto e critérios de aceitação"
       value: |
-        Story:
+        ## Story:
 
-        Contexto:
+        ## Contexto:
 
-        Critérios de aceitação:
+        ## Critérios de aceitação:
+    validations:
+      required: true
 
   - type: textarea
     attributes:
