@@ -1,0 +1,46 @@
+name: Bug
+description: Reportar erros, comportamentos inesperados ou problemas no sistema
+type: bug
+body:
+  - type: textarea
+    attributes:
+      id: description
+      label: "Descrição do problema"
+      description: "Descreva o problema encontrado de forma clara e objetiva"
+      placeholder: "Ex: O botão de salvar não responde ao ser clicado na página de cadastro"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      id: steps_to_reproduce
+      label: "Passos para reproduzir"
+      description: "Liste os passos necessários para reproduzir o problema"
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      id: expected_behavior
+      label: "Comportamento esperado"
+      description: "O que deveria acontecer?"
+      placeholder: "Ex: O formulário deveria ser salvo e mostrar mensagem de sucesso"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      id: priority
+      label: "Prioridade"
+      description: "Qual a gravidade do problema?"
+      options:
+        - P0 - Crítico (Sistema fora do ar, perda de dados, segurança comprometida)
+        - P1 - Alto (Funcionalidade importante completamente quebrada)
+        - P2 - Médio (Afeta alguns usuários ou cenários específicos)
+        - P3 - Baixo (Problema menor, cosmético ou com workaround)
+    validations:
+      required: true

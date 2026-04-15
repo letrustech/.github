@@ -1,0 +1,20 @@
+name: Epic
+description: Criar um épico para agrupar múltiplas stories relacionadas a um objetivo maior
+type: epic
+body:
+  - type: textarea
+    attributes:
+      id: description
+      label: "Descrição do Épico"
+      description: "Descreva o objetivo geral e o valor que este épico irá entregar"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      id: documentation_link
+      label: "Link da Documentação"
+      description: "Link para a documentação do projeto"
+      placeholder: "https://..."
+    validations:
+      required: false
