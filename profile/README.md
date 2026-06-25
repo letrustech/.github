@@ -4,7 +4,7 @@
 
 **Tecnologia e inteligência artificial a serviço da educação**
 
-[![Site](https://img.shields.io/badge/letrus.com.br-1e2327?style=flat&logo=googlechrome&logoColor=white)](https://www.letrus.com.br)
+[![Site](https://img.shields.io/badge/letrus.com.br-1e2327?style=flat&logo=googlechrome&logoColor=white)]([https://www.letrus.com](https://www.letrus.com/))
 
 </div>
 
@@ -16,7 +16,7 @@ A **Letrus** é uma companhia brasileira que usa tecnologia e IA para desenvolve
 
 ## 💬 Contato
 
-- 🌐 [letrus.com.br](https://www.letrus.com.br)
+- 🌐 [letrus.com.br](https://materiais.letrus.com.br/contato-letrus)
 
 <div align="center">
 <sub>Feito com 💜 pelo time da Letrus</sub>
