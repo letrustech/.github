@@ -15,7 +15,7 @@ A **Letrus** é uma companhia brasileira que usa tecnologia e IA para desenvolve
 
 ## 💬 Contato
 
-- 🌐 [letrus.com](https://www.letrus.com/contato-letrus)
+- 🌐 [https://www.letrus.com/contato-letrus](https://materiais.letrus.com.br/contato-letrus)
 
 <div align="center">
 <sub>Feito com 💜 pelo time da Letrus</sub>
